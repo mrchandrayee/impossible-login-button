@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#08070e">
+  <title>Impossible Login Button</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <div class="meta-row">
+      <span class="tag"><b>PROJECT 07</b><i>•</i> HTML · CSS · JS</span>
+      <span class="tag challenge">✦ Chase · dodge · <b>unlock</b></span>
+    </div>
+    <h1>Impossible <span>Login Button</span></h1>
+
+    <section class="browser" aria-label="Login demo">
+      <div class="browser-top">
+        <div class="lights"><i></i><i></i><i></i></div>
+        <div class="url">🔒 &nbsp; localhost / impossible-login</div>
+        <span class="reload">↻</span>
+      </div>
+      <div class="demo-area">
+        <div class="login-card" id="loginCard">
+          <div class="card-glow"></div>
+          <form id="loginForm" novalidate>
+            <h2>Welcome back</h2>
+            <p class="sub">Please enter your details to sign in</p>
+
+            <label for="email">EMAIL</label>
+            <div class="field-wrap">
+              <span class="field-icon">✉</span>
+              <input id="email" type="email" placeholder="name@example.com" autocomplete="email">
+            </div>
+
+            <div class="password-label">
+              <label for="password">PASSWORD</label>
+              <button type="button" class="forgot" id="forgot">Forgot?</button>
+            </div>
+            <div class="field-wrap">
+              <span class="field-icon">▣</span>
+              <input id="password" type="password" placeholder="Enter your password" autocomplete="current-password">
+              <button type="button" class="eye" id="togglePassword" aria-label="Show password">◉</button>
+            </div>
+
+            <div class="options">
+              <label class="remember"><input type="checkbox" id="remember"> <span>Remember me</span></label>
+              <span class="secure">● Secure login</span>
+            </div>
+
+            <div class="button-zone" id="buttonZone">
+              <button class="login-button" id="loginButton" type="submit">
+                <span>Sign in</span><b>→</b>
+              </button>
+            </div>
+            <p class="message" id="message" aria-live="polite">Don't have an account? <a href="#signup" id="signup">Sign up</a></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="code-panel">
+      <div class="editor-tabs">
+        <span class="active"><i class="html-dot"></i> index.html</span>
+        <span><i class="css-dot"></i> style.css</span>
+        <span><i class="js-dot"></i> script.js</span>
+        <small>1:08</small>
+      </div>
+      <div class="code-body">
+        <div class="numbers">1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11</div>
+        <pre><code><em>&lt;div</em> class=<strong>"login-box"</strong><em>&gt;</em>
+  <em>&lt;span</em> class=<strong>"border-line"</strong><em>&gt;&lt;/span&gt;</em>
+  <em>&lt;form</em> id=<strong>"loginForm"</strong><em>&gt;</em>
+    <em>&lt;h2&gt;</em>Welcome back<em>&lt;/h2&gt;</em>
+    <em>&lt;div</em> class=<strong>"input-box"</strong><em>&gt;</em>
+      <em>&lt;input</em> type=<strong>"email"</strong> required<em>&gt;</em>
+      <em>&lt;label&gt;</em>Email<em>&lt;/label&gt;</em>
+    <em>&lt;/div&gt;</em>
+    <em>&lt;button</em> class=<strong>"login-btn"</strong><em>&gt;</em>Sign in<em>&lt;/button&gt;</em>
+  <em>&lt;/form&gt;</em>
+<em>&lt;/div&gt;</em></code></pre>
+      </div>
+    </section>
+    <div class="comment-pill">▣ &nbsp; Comment <b>"LOGIN"</b> for the full source code</div>
+    <footer>
+      <div class="avatar">CS</div>
+      <div class="creator"><b>@coding.stella</b><small>animated codes, easy learning</small></div>
+      <div class="social"><span>♡<small>Like</small></span><span>▣<small>Save</small></span><span>➤<small>Share</small></span></div>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
